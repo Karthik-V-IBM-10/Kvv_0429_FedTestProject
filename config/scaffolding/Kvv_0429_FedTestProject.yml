@@ -8,6 +8,14 @@ packages:
   gitUsername: Karthik-V-IBM-10
   gitBranch: main
 services:
+- serviceName: project.kvv_0429_fedtest.integrations:Copy_refdaf
+  packages:
+  - name: Kvv_0429_FedTestProject
+    version: "1.0"
+- serviceName: project.kvv_0429_fedtest.referencedata:ref1
+  packages:
+  - name: Kvv_0429_FedTestProject
+    version: "1.0"
 - serviceName: project.kvv_0429_fedtest.integrations:doUntilDADA
   packages:
   - name: Kvv_0429_FedTestProject
@@ -25,10 +33,6 @@ services:
   - name: WmPublic
     version: 12.0.0.0.830
 - serviceName: project.kvv_0429_fedtest.integrations:refdaf
-  packages:
-  - name: Kvv_0429_FedTestProject
-    version: "1.0"
-- serviceName: project.kvv_0429_fedtest.referencedata:ref1
   packages:
   - name: Kvv_0429_FedTestProject
     version: "1.0"
