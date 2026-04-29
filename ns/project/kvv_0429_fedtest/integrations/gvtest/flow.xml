@@ -12,17 +12,6 @@
 
 <MAP MODE="INPUT">
   <COMMENT></COMMENT>
-
-  <!-- nodes -->
-
-<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/key;1;0">
-  <DATA ENCODING="XMLValues" I18N="true">
-
-<Values version="2.0">
-  <value name="xml">var1</value>
-</Values>
-</DATA>
-</MAPSET>
 </MAP>
 
 <MAP MODE="OUTPUT">
